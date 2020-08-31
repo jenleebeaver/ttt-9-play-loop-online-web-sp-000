@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn
-  for turn in 1..9 do
-    move
+  for move in 1..9 do
+    turn
   end
 end
