@@ -37,8 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  turn
-  for move in 1..9 do
-    turn
+  turn_count = 0
+  for turn_count in 1..9 do
+    turn(board)
+    turn_count += 1
   end
 end
